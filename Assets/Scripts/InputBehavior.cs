@@ -15,7 +15,14 @@ public class InputBehavior : MonoBehaviour
 
     private void Update()
     {
-        _playerMovement.MoveDirection = new Vector3(-Input.GetAxis("Vertical"), 0, Input.GetAxis("Horizontal"));
-        _buddyMovement.MoveDirection = new Vector3(Input.GetAxis("Vertical"), 0, -Input.GetAxis("Horizontal"));
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+        else
+        {
+            _playerMovement.MoveDirection = new Vector3(-Input.GetAxis("Vertical"), 0, Input.GetAxis("Horizontal"));
+            _buddyMovement.MoveDirection = new Vector3(Input.GetAxis("Vertical"), 0, -Input.GetAxis("Horizontal"));
+        }
     }
 }
