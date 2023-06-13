@@ -14,4 +14,4 @@ In Buddy Buddy, your goal is to reunite two shaped friends who have been seperat
 * WASD or arrow keys to move
 * press ESC at any time to exit the game
 ## Credits
-Models used in the game belong to [100 Geometry Characters Pack]([https://link-url-here.org](https://assetstore.unity.com/packages/3d/characters/robots/100-geometry-characters-pack-196841))
+Models used in the game belong to [100 Geometry Characters Pack](https://assetstore.unity.com/packages/3d/characters/robots/100-geometry-characters-pack-196841)
